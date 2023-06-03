@@ -1,0 +1,5 @@
+spring:
+    datasource:
+        url: ${DATABASE_URL} # Добавить в переменные окружения при помощи url: ${DATABASE_URL:jdbc:postgresql://localhost:5433/post_info}
+        username: ${DATABASE_USERNAME}
+        password: ${DATABASE_PASSWORD}
